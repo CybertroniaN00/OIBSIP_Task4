@@ -1,15 +1,21 @@
 
 # HTTP PACKET ANALYSIS REPORT
 
+## INTRODUCTION
+
+Introduction
+For this task, I used Wireshark, a powerful network protocol analyzer, to capture and analyze HTTP traffic from my system. The goal was to inspect real network communication, identify request–response patterns, and understand the details of HTTP packets exchanged between my device and remote servers.
+
+I began by launching Wireshark and selecting the active network interface connected to the internet. Once the capture started, I applied the filter http to isolate only HTTP traffic, excluding other unrelated packets.
 
 ## OVERVIEW
 
 This document provides a packet-by-packet analysis  HTTP packets captured in Wireshark.
 These packets show a combination of:
 - Windows automatic network connectivity checks
-- Browser asset requests (favicon, page components)
+- Browser asset requests 
 - Responses from Microsoft and Google servers
-- All captured over HTTP (unencrypted)
+- All captured over HTTP 
 
 
 
